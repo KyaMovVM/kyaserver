@@ -109,4 +109,3 @@
 - Основной репозиторий: http://192.168.0.104:3000/KyaMovVM/kyaserver
 - Документация: http://192.168.0.104:3000/KyaMovVM/Main.wiki
 - Команда: KYA (https://linear.app/kyamovvm/team/KYA/active)
-
