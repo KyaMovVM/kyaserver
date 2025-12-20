@@ -1,6 +1,6 @@
 [submodule "main-project"]
 	path = main-project
-	url = http://192.168.0.104:3000/KyaMovVM/Main.git
+	url = https://github.com/KyaMovVM/Main.git
 [submodule "wiki"]
 	path = wiki
 	url = http://192.168.0.104:3000/KyaMovVM/Main.wiki.git
