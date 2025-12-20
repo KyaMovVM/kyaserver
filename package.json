@@ -1,0 +1,22 @@
+{
+  "name": "kyaserver",
+  "version": "1.0.0",
+  "description": "kyaserver",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "kya": "node kya.js"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "getting-started-app"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
