@@ -3,6 +3,9 @@
 Главный репозиторий для управления несколькими проектами: основное приложение (Main), Docker контейнеры и документация.
 
 Cursor, Perplexity
+https://linear.app/pricing
+https://linear.app/docs/default-team-pages#active
+https://linear.app/kyamovvm/team/KYA/active
 
 ## Структура
 
