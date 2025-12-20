@@ -1,0 +1,484 @@
+{
+  "main": {
+    "id": "1d8bd4312adfcf7f",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6e512d594b9fb46",
+        "type": "tabs",
+        "dimension": 62.709497206703915,
+        "children": [
+          {
+            "id": "3845432ec2d45d59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Добро пожаловать.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Добро пожаловать"
+            }
+          },
+          {
+            "id": "1cd7e97f3036c5f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Добро пожаловать.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Добро пожаловать"
+            }
+          },
+          {
+            "id": "f2d22caba3bbe052",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Our son is married.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Our son is married"
+            }
+          },
+          {
+            "id": "94a1eb934c32606e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "You are really beatiful, Sveta.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "You are really beatiful, Sveta"
+            }
+          },
+          {
+            "id": "a27086640c37001e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Yes my wife is beautiful.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Yes my wife is beautiful"
+            }
+          },
+          {
+            "id": "b226bd0c2c1c893a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "My brother is married.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "My brother is married"
+            }
+          },
+          {
+            "id": "b03dd1157b2b9859",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Women.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Women"
+            }
+          },
+          {
+            "id": "3773a939b4cc7f22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hip-hop.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "hip-hop"
+            }
+          },
+          {
+            "id": "ad6cc1452d09f995",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To sing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "To sing"
+            }
+          },
+          {
+            "id": "672630f868494dab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Smile.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Smile"
+            }
+          },
+          {
+            "id": "cff23648b2d38129",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "you.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "you"
+            }
+          },
+          {
+            "id": "878f6ef5195cf686",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Music.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Music"
+            }
+          },
+          {
+            "id": "ed1c5dd8181ca9a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sweetheart.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sweetheart"
+            }
+          },
+          {
+            "id": "ee3e71f8a571d132",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Oh, my sense of humor is strange.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Oh, my sense of humor is strange"
+            }
+          },
+          {
+            "id": "5d357cff4a970768",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "You are so smart, my sweetheart.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "You are so smart, my sweetheart"
+            }
+          },
+          {
+            "id": "e6b2102f94937dbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "You are really handsome, Ben.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "You are really handsome, Ben"
+            }
+          },
+          {
+            "id": "66a38f98aac4906b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "I am a happy woman.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "I am a happy woman"
+            }
+          },
+          {
+            "id": "fdc5b7c9f9c50314",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thank you sweetheart.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Thank you sweetheart"
+            }
+          },
+          {
+            "id": "e87f36185d86eabe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "You  are  really handsome Ben.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "You  are  really handsome Ben"
+            }
+          },
+          {
+            "id": "a7d6ce081e1fdc30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Women.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Women"
+            }
+          }
+        ],
+        "currentTab": 19
+      },
+      {
+        "id": "56f7bc7de0f8c351",
+        "type": "tabs",
+        "dimension": 37.290502793296085,
+        "children": [
+          {
+            "id": "56394f12e0fa8e98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "You are so smart, my sweetheart.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "You are so smart, my sweetheart"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "55e30762fc398709",
+    "type": "split",
+    "children": [
+      {
+        "id": "15359fc441b90b51",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d23198511165bd2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "84c4dbad2cf0c080",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "d0d20542229751e5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 269.5
+  },
+  "right": {
+    "id": "cf98d7593b76a445",
+    "type": "split",
+    "children": [
+      {
+        "id": "58fb7396a3f01b03",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "122a738b51d6bedf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "He has a great sence of humor.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для He has a great sence of humor"
+            }
+          },
+          {
+            "id": "07ba134a4aad7b58",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "He has a great sence of humor.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из He has a great sence of humor"
+            }
+          },
+          {
+            "id": "54fa3d19e7c9cd59",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "4254fa3355a94c9d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "He has a great sence of humor.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура He has a great sence of humor"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Создать новую базу": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "1d23198511165bd2",
+  "lastOpenFiles": [
+    "Добро пожаловать.md",
+    "You are so smart, my sweetheart.md",
+    "You are really handsome, Ben.md",
+    "To sing.md",
+    "Thank you sweetheart.md",
+    "He has a great sence of humor.md",
+    "You  are  really handsome Ben.md",
+    "Yes my wife is beautiful.md",
+    "you.md",
+    "Women.md",
+    "You are really beatiful, Sveta.md",
+    "Oh, my sense of humor is strange.md",
+    "Maria is a teacher.md",
+    "hip-hop.md",
+    "I am a happy woman.md",
+    "Sweetheart.md",
+    "Music.md",
+    "Smile.md",
+    "My brother is married.md",
+    "Our son is married.md"
+  ]
+}
