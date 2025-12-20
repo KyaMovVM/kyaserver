@@ -1,4 +1,4 @@
-const Dialogue = require('../Main/Japanese game/novel.js');
+const VisualNovel = require('../Main/Japanese game/novel.js');
 
 // Mock DOM implementation without jsdom
 class MockElement {
@@ -46,7 +46,7 @@ class MockElement {
   }
 }
 
-describe('Dialogue', () => {
+describe('VisualNovel', () => {
   let container;
   let mockDocument;
 
@@ -69,7 +69,7 @@ describe('Dialogue', () => {
       { speaker: 'A', text: 'Hello' },
       { speaker: 'B', text: 'Hi' }
     ];
-    const dlg = new Dialogue(scenes);
+    const dlg = new VisualNovel(scenes);
     dlg.start();
     expect(container.querySelector('h3').textContent).toBe('A');
     expect(container.querySelector('p').textContent).toBe('Hello');
@@ -82,7 +82,7 @@ describe('Dialogue', () => {
     const scenes = [
       { speaker: 'A', text: 'Hello' }
     ];
-    const dlg = new Dialogue(scenes);
+    const dlg = new VisualNovel(scenes);
     dlg.start();
     expect(container.querySelector('h3').textContent).toBe('A');
     expect(container.querySelector('p').textContent).toBe('Hello');
@@ -100,7 +100,7 @@ describe('Dialogue', () => {
       { speaker: 'B', text: 'Second' },
       { speaker: 'C', text: 'Third' }
     ];
-    const dlg = new Dialogue(scenes);
+    const dlg = new VisualNovel(scenes);
     dlg.start();
     // After start, first scene should be present
     expect(container.querySelectorAll('h3')[0].textContent).toBe('A');
