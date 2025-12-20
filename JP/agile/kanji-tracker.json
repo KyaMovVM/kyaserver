@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "total_goal": 300,
+    "last_updated": "",
+    "version": "1.0"
+  },
+  "kanji": [],
+  "statistics": {
+    "total_learned": 0,
+    "by_level": {
+      "N5": 0,
+      "N4": 0
+    },
+    "by_status": {
+      "learning": 0,
+      "reviewing": 0,
+      "mastered": 0
+    }
+  }
+}
+

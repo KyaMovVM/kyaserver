@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "total_goal": 1500,
+    "last_updated": "",
+    "version": "1.0"
+  },
+  "words": [],
+  "statistics": {
+    "total_learned": 0,
+    "by_level": {
+      "N5": 0,
+      "N4": 0,
+      "SSW": 0
+    },
+    "by_status": {
+      "learning": 0,
+      "reviewing": 0,
+      "mastered": 0
+    }
+  }
+}
+
