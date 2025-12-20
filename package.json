@@ -13,7 +13,8 @@
   "jest": {
     "testEnvironment": "node",
     "testPathIgnorePatterns": [
-      "getting-started-app"
+      "getting-started-app",
+      "docker-projects"
     ]
   },
   "devDependencies": {
