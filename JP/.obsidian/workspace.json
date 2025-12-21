@@ -92,21 +92,35 @@
             }
           },
           {
-            "id": "977615598cbc496f",
+            "id": "03c54a4e70a68beb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "これは.md",
+                "file": "いろどり/Irodori.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "これは"
+              "title": "Irodori"
+            }
+          },
+          {
+            "id": "0e3bc9ff56e8d370",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "いろどり/App words.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "App words"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -228,13 +242,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "これは.md",
+                "file": "いろどり/App words.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура これは"
+              "title": "Структура App words"
             }
           },
           {
@@ -277,7 +291,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 457.5
+    "width": 661.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -291,10 +305,25 @@
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "977615598cbc496f",
+  "active": "0e3bc9ff56e8d370",
   "lastOpenFiles": [
-    "ラーメン.md",
+    "いろどり/App/Без названия.md",
+    "いろどり/App words.md",
+    "いろどり/Irodori.md",
+    "いろどり/App",
+    "Private/Без названия 3.md",
+    "Private/Без названия.md",
+    "Books/漢字の教科書 初級300.pdf",
+    "Books/みんなの日本語Ⅰ　ロシア語.pdf",
+    "Books/みんなの日本語Ⅰ　本冊.pdf",
+    "Books/表 video.pdf",
+    "Books/The_Official_Guide_Book_for_JLPT_N4.N5.pdf",
+    "Books/pg_RJS-FW2026_ja.pdf",
+    "Books/JFT-Basic/describing_ja.pdf",
+    "Books/JFT-Basic",
+    "いろどり/X_all.pdf",
     "これは.md",
+    "ラーメン.md",
     "みず.md",
     "です.md",
     "おちゃ.md",
@@ -316,21 +345,6 @@
     "Pasted image 20251218154112.png",
     "Pasted image 20251218153835.png",
     "Katakana.md",
-    "Справочник m2.md",
-    "Private/Без названия 3.md",
-    "Без названия 4.md",
-    "Private/Без названия.md",
-    "Excalidraw/Drawing 2025-12-12 23.34.01.excalidraw.md",
-    "Private",
-    "Books/Minna no Nihongo 1/MNN_Beginner_I_Kanji.pdf",
-    "Books/Minna no Nihongo 1/Basic_Workbook_I_2012.pdf",
-    "Books/Minna no Nihongo 1/MNN_I_-_Reading.pdf",
-    "Books/pg_RJS-FW2026_ja.pdf",
-    "Books/漢字の教科書 初級300.pdf",
-    "Books/みんなの日本語Ⅰ　ロシア語.pdf",
-    "Books/みんなの日本語Ⅰ　本冊.pdf",
-    "Books/表 video.pdf",
-    "Books/The_Official_Guide_Book_for_JLPT_N4.N5.pdf",
     "Pasted image 20251218154019.png",
     "Books/Minna no Nihongo 1/XjXPZC9bbDo.jpg",
     "Books/Minna no Nihongo 1/обложка.jpg",
