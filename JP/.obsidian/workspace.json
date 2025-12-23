@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "いろどり/App words.md",
+                "file": "Duolingo/2md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "App words"
+              "title": "2md"
             }
           }
         ],
@@ -242,13 +242,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "いろどり/App words.md",
+                "file": "Duolingo/2md.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура App words"
+              "title": "Структура 2md"
             }
           },
           {
@@ -307,8 +307,8 @@
   },
   "active": "0e3bc9ff56e8d370",
   "lastOpenFiles": [
-    "いろどり/App/Без названия.md",
     "いろどり/App words.md",
+    "いろどり/App/Без названия.md",
     "いろどり/Irodori.md",
     "いろどり/App",
     "Private/Без названия 3.md",
