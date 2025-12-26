@@ -118,9 +118,23 @@
               "icon": "lucide-file",
               "title": "2md"
             }
+          },
+          {
+            "id": "05d8bb5171863c48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "えいじゃ/浅草　あさくさ.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "浅草　あさくさ"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -177,7 +191,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5086555480957
+    "width": 211.5086555480957,
+    "collapsed": true
   },
   "right": {
     "id": "6d87d3dc7db805bc",
@@ -242,13 +257,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Duolingo/2md.md",
+                "file": "えいじゃ/浅草　あさくさ.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура 2md"
+              "title": "Структура 浅草　あさくさ"
             }
           },
           {
@@ -291,7 +306,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 661.5
+    "width": 320.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -305,11 +321,45 @@
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "0e3bc9ff56e8d370",
+  "active": "05d8bb5171863c48",
   "lastOpenFiles": [
-    "いろどり/App words.md",
-    "いろどり/App/Без названия.md",
+    "Duolingo/images/1765355135.png",
+    "Duolingo/images/1765355219.png",
+    "Duolingo/images/1765355409.png",
+    "Duolingo/images/1765355460.png",
+    "Duolingo/images/1765355529.png",
+    "Duolingo/images/1765355576.png",
+    "Duolingo/images/1765355634.png",
+    "Duolingo/images/1765355655.png",
+    "Duolingo/images/1765357698.png",
+    "Duolingo/images/1765357737.png",
+    "Duolingo/images/1765391154.png",
+    "Duolingo/images/desktop.ini",
+    "Duolingo/images",
+    "new.base",
+    "えいじゃ/浅草　あさくさ.md",
+    "ラーメン.md",
+    "えいじゃ",
+    "これは.md",
+    "です.md",
+    "drinks.md",
+    "ピザ.md",
+    "かっこいい.md",
+    "Фразы.md",
+    "ケーキ.md",
+    "Hiragana Mnemonics Videos.md",
+    "バスてい.md",
+    "first exp.md",
+    "0rea.md",
+    "Katakana.md",
+    "ssw.md",
+    "readme.md",
+    "かたかなとひらがな.md",
     "いろどり/Irodori.md",
+    "Без названия.md",
+    "いろどり/App words.md",
+    "Duolingo/2md.md",
+    "いろどり/App/Без названия.md",
     "いろどり/App",
     "Private/Без названия 3.md",
     "Private/Без названия.md",
@@ -318,36 +368,6 @@
     "Books/みんなの日本語Ⅰ　本冊.pdf",
     "Books/表 video.pdf",
     "Books/The_Official_Guide_Book_for_JLPT_N4.N5.pdf",
-    "Books/pg_RJS-FW2026_ja.pdf",
-    "Books/JFT-Basic/describing_ja.pdf",
-    "Books/JFT-Basic",
-    "いろどり/X_all.pdf",
-    "これは.md",
-    "ラーメン.md",
-    "みず.md",
-    "です.md",
-    "おちゃ.md",
-    "readme.md",
-    "drinks.md",
-    "eats.md",
-    "おいしい.md",
-    "ピザ.md",
-    "ケーキ.md",
-    "ごはん.md",
-    "Фразы.md",
-    "おはついしておこ.md",
-    "Hiragana Mnemonics Videos.md",
-    "バスてい.md",
-    "first exp.md",
-    "Справочник раздела 1m10.md",
-    "0rea.md",
-    "Без названия 2.md",
-    "Pasted image 20251218154112.png",
-    "Pasted image 20251218153835.png",
-    "Katakana.md",
-    "Pasted image 20251218154019.png",
-    "Books/Minna no Nihongo 1/XjXPZC9bbDo.jpg",
-    "Books/Minna no Nihongo 1/обложка.jpg",
-    "Untitled Diagram.svg"
+    "みず.md"
   ]
 }
