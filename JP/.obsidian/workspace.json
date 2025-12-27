@@ -4,137 +4,56 @@
     "type": "split",
     "children": [
       {
-        "id": "6eeb1a5aadfa4134",
+        "id": "dc55a191099ee5ba",
         "type": "tabs",
+        "dimension": 65.86651053864169,
         "children": [
           {
-            "id": "5094229ffd75c38d",
+            "id": "a901e9c1ba1e466d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Справочник раздела 1m10.md",
-                "mode": "source",
-                "source": false
+                "file": "Books/みんなの日本語Ⅰ　ロシア語.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Справочник раздела 1m10"
-            }
-          },
-          {
-            "id": "fe7e3964c0393814",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Справочник m2 copy.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Справочник m2 copy"
-            }
-          },
-          {
-            "id": "ee63a397167532ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Katakana.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Katakana"
-            }
-          },
-          {
-            "id": "a762274b1d422717",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Справочник m2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Справочник m2"
-            }
-          },
-          {
-            "id": "def3387afecf67d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Private/Без названия.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Без названия"
-            }
-          },
-          {
-            "id": "79be5a0024d8edd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Private/Без названия 3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Без названия 3"
-            }
-          },
-          {
-            "id": "03c54a4e70a68beb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "いろどり/Irodori.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Irodori"
-            }
-          },
-          {
-            "id": "0e3bc9ff56e8d370",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Duolingo/2md.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2md"
-            }
-          },
-          {
-            "id": "05d8bb5171863c48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "えいじゃ/浅草　あさくさ.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "浅草　あさくさ"
+              "icon": "lucide-file-text",
+              "title": "みんなの日本語Ⅰ　ロシア語"
             }
           }
-        ],
-        "currentTab": 8
+        ]
+      },
+      {
+        "id": "c290eb4a823307c5",
+        "type": "tabs",
+        "dimension": 34.133489461358316,
+        "children": [
+          {
+            "id": "25fda0d3114781c2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Books/Drawing 2025-12-26 19.28.16.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-12-26 19.28.16.excalidraw"
+            }
+          },
+          {
+            "id": "eaa7af864b161a80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "みんなの日本語/first.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "first"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5086555480957,
+    "width": 332.51103591918945,
     "collapsed": true
   },
   "right": {
@@ -257,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "えいじゃ/浅草　あさくさ.md",
+                "file": "Books/Drawing 2025-12-26 19.28.16.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура 浅草　あさくさ"
+              "title": "Структура Drawing 2025-12-26 19.28.16.excalidraw"
             }
           },
           {
@@ -321,8 +240,38 @@
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "05d8bb5171863c48",
+  "active": "25fda0d3114781c2",
   "lastOpenFiles": [
+    "Books/みんなの日本語Ⅰ　ロシア語.pdf",
+    "Books/Drawing 2025-12-26 19.28.16.excalidraw.md",
+    "みんなの日本語/first.md",
+    "みんなの日本語/first.md.md",
+    "Books/みんなの日本語Ⅰ　本冊.pdf",
+    "Books/表 video.pdf",
+    "Books/The_Official_Guide_Book_for_JLPT_N4.N5.pdf",
+    "Books/Drawing 2025-12-26 18.06.32.excalidraw.md",
+    "Books/Без названия.md",
+    "Duolingo/2md.md",
+    "Private/Без названия 3.md",
+    "Private/Без названия.md",
+    "Katakana.md",
+    "いろどり/Irodori.md",
+    "Books/Minna no Nihongo 1/MNN_I_-_Reading.pdf",
+    "Books/JFT-Basic/describing_ja.pdf",
+    "agile/scripts/README.md",
+    "agile/sprints/current-sprint.md",
+    "agile/sprints/archive/README.md",
+    "agile/README.md",
+    "agile/SSW-SKILLS.md",
+    "agile/progress.md",
+    "agile/weekly-review.md",
+    "agile/QUICK_START.md",
+    "agile/JFT-BASIC.md",
+    "agile/kanban.md",
+    "agile/SETUP_COMPLETE.md",
+    "agile/CHANGELOG.md",
+    "えいじゃ/浅草　あさくさ.md",
+    "みんなの日本語",
     "Duolingo/images/1765355135.png",
     "Duolingo/images/1765355219.png",
     "Duolingo/images/1765355409.png",
@@ -333,41 +282,10 @@
     "Duolingo/images/1765355655.png",
     "Duolingo/images/1765357698.png",
     "Duolingo/images/1765357737.png",
-    "Duolingo/images/1765391154.png",
     "Duolingo/images/desktop.ini",
     "Duolingo/images",
     "new.base",
-    "えいじゃ/浅草　あさくさ.md",
     "ラーメン.md",
-    "えいじゃ",
-    "これは.md",
-    "です.md",
-    "drinks.md",
-    "ピザ.md",
-    "かっこいい.md",
-    "Фразы.md",
-    "ケーキ.md",
-    "Hiragana Mnemonics Videos.md",
-    "バスてい.md",
-    "first exp.md",
-    "0rea.md",
-    "Katakana.md",
-    "ssw.md",
-    "readme.md",
-    "かたかなとひらがな.md",
-    "いろどり/Irodori.md",
-    "Без названия.md",
-    "いろどり/App words.md",
-    "Duolingo/2md.md",
-    "いろどり/App/Без названия.md",
-    "いろどり/App",
-    "Private/Без названия 3.md",
-    "Private/Без названия.md",
-    "Books/漢字の教科書 初級300.pdf",
-    "Books/みんなの日本語Ⅰ　ロシア語.pdf",
-    "Books/みんなの日本語Ⅰ　本冊.pdf",
-    "Books/表 video.pdf",
-    "Books/The_Official_Guide_Book_for_JLPT_N4.N5.pdf",
-    "みず.md"
+    "これは.md"
   ]
 }
