@@ -6,39 +6,8 @@
       {
         "id": "dc55a191099ee5ba",
         "type": "tabs",
-        "dimension": 65.86651053864169,
+        "dimension": 34.30913348946136,
         "children": [
-          {
-            "id": "a901e9c1ba1e466d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Books/みんなの日本語Ⅰ　ロシア語.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "みんなの日本語Ⅰ　ロシア語"
-            }
-          }
-        ]
-      },
-      {
-        "id": "c290eb4a823307c5",
-        "type": "tabs",
-        "dimension": 34.133489461358316,
-        "children": [
-          {
-            "id": "25fda0d3114781c2",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Books/Drawing 2025-12-26 19.28.16.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-12-26 19.28.16.excalidraw"
-            }
-          },
           {
             "id": "eaa7af864b161a80",
             "type": "leaf",
@@ -51,6 +20,25 @@
               },
               "icon": "lucide-file",
               "title": "first"
+            }
+          }
+        ]
+      },
+      {
+        "id": "21f0a294963718c0",
+        "type": "tabs",
+        "dimension": 65.69086651053864,
+        "children": [
+          {
+            "id": "a901e9c1ba1e466d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Books/みんなの日本語Ⅰ　ロシア語.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "みんなの日本語Ⅰ　ロシア語"
             }
           }
         ]
@@ -240,11 +228,16 @@
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "25fda0d3114781c2",
+  "active": "a901e9c1ba1e466d",
   "lastOpenFiles": [
+    "みんなの日本語/first.md",
+    "Writing/1",
+    "Writing",
+    "Rules/particles",
+    "Rules/Частицы",
+    "Rules",
     "Books/みんなの日本語Ⅰ　ロシア語.pdf",
     "Books/Drawing 2025-12-26 19.28.16.excalidraw.md",
-    "みんなの日本語/first.md",
     "みんなの日本語/first.md.md",
     "Books/みんなの日本語Ⅰ　本冊.pdf",
     "Books/表 video.pdf",
@@ -257,7 +250,6 @@
     "Katakana.md",
     "いろどり/Irodori.md",
     "Books/Minna no Nihongo 1/MNN_I_-_Reading.pdf",
-    "Books/JFT-Basic/describing_ja.pdf",
     "agile/scripts/README.md",
     "agile/sprints/current-sprint.md",
     "agile/sprints/archive/README.md",
@@ -271,7 +263,6 @@
     "agile/SETUP_COMPLETE.md",
     "agile/CHANGELOG.md",
     "えいじゃ/浅草　あさくさ.md",
-    "みんなの日本語",
     "Duolingo/images/1765355135.png",
     "Duolingo/images/1765355219.png",
     "Duolingo/images/1765355409.png",
@@ -282,9 +273,6 @@
     "Duolingo/images/1765355655.png",
     "Duolingo/images/1765357698.png",
     "Duolingo/images/1765357737.png",
-    "Duolingo/images/desktop.ini",
-    "Duolingo/images",
-    "new.base",
     "ラーメン.md",
     "これは.md"
   ]
