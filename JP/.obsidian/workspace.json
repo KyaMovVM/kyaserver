@@ -14,15 +14,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "みんなの日本語/first.md",
+                "file": "Duolingo/2md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "first"
+              "title": "2md"
+            }
+          },
+          {
+            "id": "ebad1a9be8aaf0a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "words and kanji/words.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "words"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "21f0a294963718c0",
@@ -98,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.51103591918945,
-    "collapsed": true
+    "width": 332.51103591918945
   },
   "right": {
     "id": "6d87d3dc7db805bc",
@@ -164,13 +178,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/Drawing 2025-12-26 19.28.16.excalidraw.md",
+                "file": "words and kanji/words.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Drawing 2025-12-26 19.28.16.excalidraw"
+              "title": "Структура words"
             }
           },
           {
@@ -202,8 +216,8 @@
               "type": "markdown",
               "state": {
                 "file": "Katakana.md",
-                "mode": "preview",
-                "source": true
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Katakana"
@@ -228,28 +242,35 @@
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "a901e9c1ba1e466d",
+  "active": "ebad1a9be8aaf0a1",
   "lastOpenFiles": [
+    "Books/Genki/1 urok.md",
+    "Books/Genki",
+    "Просто японский/1 урок",
+    "Просто японский/1 урое",
+    "Просто японский",
+    "Books/みんなの日本語Ⅰ　ロシア語.pdf",
+    "words and kanji/words.md",
+    "Katakana.md",
+    "Pasted image 20251229125026.png",
+    "words and kanji/Wordsbooks.md",
+    "words and kanji",
+    "Duolingo/2md.md",
+    "Duolingo/1m10d.md",
+    "いろどり/Irodori.md",
+    "いろどり/App words.md",
+    "えいじゃ/浅草　あさくさ.md",
     "みんなの日本語/first.md",
     "Writing/1",
     "Writing",
     "Rules/particles",
     "Rules/Частицы",
-    "Rules",
-    "Books/みんなの日本語Ⅰ　ロシア語.pdf",
     "Books/Drawing 2025-12-26 19.28.16.excalidraw.md",
     "みんなの日本語/first.md.md",
-    "Books/みんなの日本語Ⅰ　本冊.pdf",
-    "Books/表 video.pdf",
-    "Books/The_Official_Guide_Book_for_JLPT_N4.N5.pdf",
     "Books/Drawing 2025-12-26 18.06.32.excalidraw.md",
     "Books/Без названия.md",
-    "Duolingo/2md.md",
     "Private/Без названия 3.md",
     "Private/Без названия.md",
-    "Katakana.md",
-    "いろどり/Irodori.md",
-    "Books/Minna no Nihongo 1/MNN_I_-_Reading.pdf",
     "agile/scripts/README.md",
     "agile/sprints/current-sprint.md",
     "agile/sprints/archive/README.md",
@@ -260,9 +281,6 @@
     "agile/QUICK_START.md",
     "agile/JFT-BASIC.md",
     "agile/kanban.md",
-    "agile/SETUP_COMPLETE.md",
-    "agile/CHANGELOG.md",
-    "えいじゃ/浅草　あさくさ.md",
     "Duolingo/images/1765355135.png",
     "Duolingo/images/1765355219.png",
     "Duolingo/images/1765355409.png",
@@ -271,9 +289,6 @@
     "Duolingo/images/1765355576.png",
     "Duolingo/images/1765355634.png",
     "Duolingo/images/1765355655.png",
-    "Duolingo/images/1765357698.png",
-    "Duolingo/images/1765357737.png",
-    "ラーメン.md",
-    "これは.md"
+    "Duolingo/images/1765357698.png"
   ]
 }
