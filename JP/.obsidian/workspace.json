@@ -51,6 +51,62 @@
             }
           },
           {
+            "id": "29ab058ca3aae3e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ассоциация государств Юго-Восточной Азии.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ассоциация государств Юго-Восточной Азии"
+            }
+          },
+          {
+            "id": "dc1e49ce27b4eb53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Министерство обороны Японии.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Министерство обороны Японии"
+            }
+          },
+          {
+            "id": "a4ac6c86d8defa16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Исследовательский центр национальных сил обороны.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Исследовательский центр национальных сил обороны"
+            }
+          },
+          {
+            "id": "c7d0586313e9728a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Кюсю центр иммаграционного контроля.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Кюсю центр иммаграционного контроля"
+            }
+          },
+          {
             "id": "ebad1a9be8aaf0a1",
             "type": "leaf",
             "state": {
@@ -65,7 +121,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       },
       {
         "id": "21f0a294963718c0",
@@ -270,10 +326,14 @@
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "1888a4143ede1393",
+  "active": "c7d0586313e9728a",
   "lastOpenFiles": [
-    "Военные базы США в Японии.md",
+    "Исследовательский центр национальных сил обороны.md",
+    "Кюсю центр иммаграционного контроля.md",
+    "Министерство обороны Японии.md",
+    "Ассоциация государств Юго-Восточной Азии.md",
     "В Японии начали строительство «самой опасной военной базы в мире».md",
+    "Военные базы США в Японии.md",
     "Duolingo/2md.md",
     "words and kanji/words.md",
     "Books/みんなの日本語Ⅰ　ロシア語.pdf",
@@ -305,10 +365,6 @@
     "agile/sprints/current-sprint.md",
     "agile/sprints/archive/README.md",
     "agile/README.md",
-    "agile/SSW-SKILLS.md",
-    "agile/progress.md",
-    "agile/weekly-review.md",
-    "agile/QUICK_START.md",
     "Duolingo/images/1765355135.png",
     "Duolingo/images/1765355219.png",
     "Duolingo/images/1765355409.png",
