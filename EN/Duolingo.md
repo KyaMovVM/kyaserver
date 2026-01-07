@@ -87,3 +87,40 @@ Where is the painting by Picasso?
 Look, this painting is really interesting!
 Посмотрите, эта картина очень интересная!
 
+Полезный совет
+Когда 
+подлежащее
+ — he / she / it, используйте форму is.
+he / she / it
+
+The water in the Hudson River is not nice.
+
+Вы хотите поплавать в реке Гудзон?
+Do you want to swim in river hudson
+
+После 
+want
+ или 
+need
+ используйте 
+to
+ перед следующим 
+глаголом
+.
+I want to pay
+.
+She needs to go.
+
+The Hudson River is so big!
+Река Гудзон такая большая!
+
+I sometimes play hockey.
+
+Do you play sports together
+
+Yes, I often play chess.
+
+Yes, i dance really well
+
+I would like two pizzas and 
+one soda, please.

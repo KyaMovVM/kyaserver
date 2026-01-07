@@ -23,6 +23,34 @@
             }
           },
           {
+            "id": "7968027f2ddc25fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Военные базы США в Японии.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Военные базы США в Японии"
+            }
+          },
+          {
+            "id": "1888a4143ede1393",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "В Японии начали строительство «самой опасной военной базы в мире».md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "В Японии начали строительство «самой опасной военной базы в мире»"
+            }
+          },
+          {
             "id": "ebad1a9be8aaf0a1",
             "type": "leaf",
             "state": {
@@ -37,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "21f0a294963718c0",
@@ -242,20 +270,22 @@
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "ebad1a9be8aaf0a1",
+  "active": "1888a4143ede1393",
   "lastOpenFiles": [
+    "Военные базы США в Японии.md",
+    "В Японии начали строительство «самой опасной военной базы в мире».md",
+    "Duolingo/2md.md",
+    "words and kanji/words.md",
+    "Books/みんなの日本語Ⅰ　ロシア語.pdf",
     "Books/Genki/1 urok.md",
     "Books/Genki",
     "Просто японский/1 урок",
     "Просто японский/1 урое",
     "Просто японский",
-    "Books/みんなの日本語Ⅰ　ロシア語.pdf",
-    "words and kanji/words.md",
     "Katakana.md",
     "Pasted image 20251229125026.png",
     "words and kanji/Wordsbooks.md",
     "words and kanji",
-    "Duolingo/2md.md",
     "Duolingo/1m10d.md",
     "いろどり/Irodori.md",
     "いろどり/App words.md",
@@ -279,8 +309,6 @@
     "agile/progress.md",
     "agile/weekly-review.md",
     "agile/QUICK_START.md",
-    "agile/JFT-BASIC.md",
-    "agile/kanban.md",
     "Duolingo/images/1765355135.png",
     "Duolingo/images/1765355219.png",
     "Duolingo/images/1765355409.png",
