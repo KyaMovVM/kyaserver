@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script async src="test.js"></script>
+    Javascript загружается параллельно с DOM. После загрузки скрипт выполняется немедленно.
+
+    <!-- <script src="test.js"></script> -->
+
+    <!-- Script tag in head
+    Когда вы запускаете браузер, то он сначала читает HTML и создает DOM
+    Загружает скрипт
+    Выполняет скрипты
+    Загрузка остатка HTML
+    -->
+</head>
+<body>
+    <h1>Welcome to JS</h1>
+    
+    <div id="testt">
+
+    </div>
+    <!-- Скрипт будет выполнен после загрузки кода последовательно. Это может долго загружаться. -->
+    <!-- <script src="test.js"></script> -->
+</body>
+</html>

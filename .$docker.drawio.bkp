@@ -1,0 +1,233 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Страница — 1" id="VLB1HBA7oyjS644LNovE">
+    <mxGraphModel dx="4700" dy="2403" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" background="none" math="0" shadow="1" adaptiveColors="auto">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-1" value="Docker engine" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-2" value="Server" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-3" value="API" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-4" value="CLI" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-5" value="Dockerfile" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-6" value="Image" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-7" value="Container" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-8" value="Docker CLI" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QK67WxGvvFHUKFNlb-PT-10" target="QK67WxGvvFHUKFNlb-PT-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-10" value="docker run ubuntu (latest)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QK67WxGvvFHUKFNlb-PT-11" target="QK67WxGvvFHUKFNlb-PT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-11" value="docker hub" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="220" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QK67WxGvvFHUKFNlb-PT-13" target="QK67WxGvvFHUKFNlb-PT-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-13" value="&lt;b&gt;-it&lt;/b&gt;&lt;div&gt;&lt;b&gt;i interaktibe&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;t - terminal&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-15" value="exit" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-19" value="docker ps" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-20" value="docker ps -a" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-23" value="Список контейнеров" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="555" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-24" value="Список" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-25" value="Docker images" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QK67WxGvvFHUKFNlb-PT-26" target="QK67WxGvvFHUKFNlb-PT-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-26" value="docker run -d -it ubuntu" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QK67WxGvvFHUKFNlb-PT-27" target="QK67WxGvvFHUKFNlb-PT-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-27" value="docker attach" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-28" value="ctrl p" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QK67WxGvvFHUKFNlb-PT-29" target="QK67WxGvvFHUKFNlb-PT-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-29" value="docker stop" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-32" value="docker start" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-34" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Ports&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="960" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-35" value="Docker run -d nginx" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="200" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-36" value="expost ports" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QK67WxGvvFHUKFNlb-PT-37" target="QK67WxGvvFHUKFNlb-PT-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-37" value="-p 8888:80" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-38" value="Переадресация порта" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-40" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Создание образа&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="20" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QK67WxGvvFHUKFNlb-PT-41" target="QK67WxGvvFHUKFNlb-PT-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-41" value="Создаём папку" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QK67WxGvvFHUKFNlb-PT-43" target="QK67WxGvvFHUKFNlb-PT-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-43" value="Создаём index.html" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QK67WxGvvFHUKFNlb-PT-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-45" value="Создаём Dockerfile" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-48" value="FROM njinx &amp;lt;version&amp;gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-49" value="WORKDIR /user/share/nginx/html" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="410" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-50" value="COPY index.html ." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-51" value="docker build . -t nginx-hello-world" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-52" value="docker run -d -p 9999:80 nginx-hello-world" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QK67WxGvvFHUKFNlb-PT-53" target="QK67WxGvvFHUKFNlb-PT-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-53" value="Создаём папку" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-55" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;main.go&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;package main&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;import (&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;ftm&quot;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;net/http&quot;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;func main() {&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;http.HandeFunc(&quot;/&quot;, helloworld)&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;http.ListenAndServe(&quot;:8000, nil)&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;function helloWorld(w http.ResponseWriter,, _*http.Reques)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;fmt.Fprint(w, &quot;he&quot;)&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="100" width="380" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QK67WxGvvFHUKFNlb-PT-56" target="QK67WxGvvFHUKFNlb-PT-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-56" value="Dockerfile" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QK67WxGvvFHUKFNlb-PT-58" target="QK67WxGvvFHUKFNlb-PT-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-58" value="FROM golang:1.21&lt;div&gt;Workdir /app&lt;/div&gt;&lt;div&gt;Copy main.go&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QK67WxGvvFHUKFNlb-PT-60" target="QK67WxGvvFHUKFNlb-PT-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-60" value="RUN go build -o hello-go main.go" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-62" value="CMD[&quot;./hello-go&quot;]" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-65" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Docker compose&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="25" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-66" value="web app" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-67" value="app serv" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-68" value="Admin" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QK67WxGvvFHUKFNlb-PT-69" target="QK67WxGvvFHUKFNlb-PT-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-69" value="Search" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QK67WxGvvFHUKFNlb-PT-70" target="QK67WxGvvFHUKFNlb-PT-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-70" value="Database" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-71" value="Elastick search" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-73" value="Postgress" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-76" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Text&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1905" y="383" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QK67WxGvvFHUKFNlb-PT-77" target="QK67WxGvvFHUKFNlb-PT-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-77" value="python -m venv venv" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2448" y="90" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-78" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Docker Django&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2415" y="30" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QK67WxGvvFHUKFNlb-PT-79" target="QK67WxGvvFHUKFNlb-PT-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-79" value=".gitignore" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2448" y="188" width="132" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="QK67WxGvvFHUKFNlb-PT-81" value="source venv/bin/activate" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

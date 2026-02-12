@@ -2,6 +2,22 @@
 
 Главный репозиторий для управления несколькими проектами: основное приложение (Main), Docker контейнеры и документация.
 
+## Паттерны
+
+https://www.javadeploy.com/java-beans/module5/design-pattern-types.jsp
+
+https://www.oreilly.com/library/view/java-enterprise-best/0596003846/ch02s01s04.html
+
+https://www.oreilly.com/library/view/design-patterns-elements/0201633612/fm.html
+
+## Cursor
+
+https://forum.cursor.com/
+
+## Obsidian
+
+https://docs.obsidian.md/Plugins/User+interface/Status+bar
+
 Cursor, Perplexity
 https://linear.app/kyamovvm/project/kyaserver-monorepo-fd8e309de16d
 

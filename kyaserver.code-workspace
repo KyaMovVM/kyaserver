@@ -2,12 +2,9 @@
     "folders": [
         {
             "path": "."
-        },
-        {
-            "path": "main-project/Japanese game"
         }
     ],
     "settings": {
-        "liveServer.settings.multiRootWorkspaceName": "Japanese game"
+        "liveServer.settings.multiRootWorkspaceName": "kyaserver"
     }
 }

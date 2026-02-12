@@ -6,7 +6,7 @@
       {
         "id": "dc55a191099ee5ba",
         "type": "tabs",
-        "dimension": 34.30913348946136,
+        "dimension": 75.99039615846338,
         "children": [
           {
             "id": "eaa7af864b161a80",
@@ -98,12 +98,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Кюсю центр иммаграционного контроля.md",
+                "file": "Duolingo/2md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Кюсю центр иммаграционного контроля"
+              "title": "2md"
+            }
+          },
+          {
+            "id": "deedeebf0e7dcea2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/И была любовь, и была ненависть.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "И была любовь, и была ненависть"
             }
           },
           {
@@ -121,12 +135,12 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "21f0a294963718c0",
         "type": "tabs",
-        "dimension": 65.69086651053864,
+        "dimension": 24.009603841536613,
         "children": [
           {
             "id": "a901e9c1ba1e466d",
@@ -197,7 +211,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.51103591918945
+    "width": 291.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "6d87d3dc7db805bc",
@@ -262,13 +277,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "words and kanji/words.md",
+                "file": "Duolingo/2md.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура words"
+              "title": "Структура 2md"
             }
           },
           {
@@ -326,17 +341,21 @@
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "c7d0586313e9728a",
+  "active": "deedeebf0e7dcea2",
   "lastOpenFiles": [
-    "Исследовательский центр национальных сил обороны.md",
+    "Duolingo/2md.md",
+    "Books/И была любовь, и была ненависть.md",
+    "math/1",
+    "math",
+    "words and kanji/math",
+    "Books/みんなの日本語Ⅰ　ロシア語.pdf",
     "Кюсю центр иммаграционного контроля.md",
+    "Исследовательский центр национальных сил обороны.md",
     "Министерство обороны Японии.md",
     "Ассоциация государств Юго-Восточной Азии.md",
     "В Японии начали строительство «самой опасной военной базы в мире».md",
     "Военные базы США в Японии.md",
-    "Duolingo/2md.md",
     "words and kanji/words.md",
-    "Books/みんなの日本語Ⅰ　ロシア語.pdf",
     "Books/Genki/1 urok.md",
     "Books/Genki",
     "Просто японский/1 урок",
@@ -352,9 +371,6 @@
     "えいじゃ/浅草　あさくさ.md",
     "みんなの日本語/first.md",
     "Writing/1",
-    "Writing",
-    "Rules/particles",
-    "Rules/Частицы",
     "Books/Drawing 2025-12-26 19.28.16.excalidraw.md",
     "みんなの日本語/first.md.md",
     "Books/Drawing 2025-12-26 18.06.32.excalidraw.md",
@@ -364,7 +380,6 @@
     "agile/scripts/README.md",
     "agile/sprints/current-sprint.md",
     "agile/sprints/archive/README.md",
-    "agile/README.md",
     "Duolingo/images/1765355135.png",
     "Duolingo/images/1765355219.png",
     "Duolingo/images/1765355409.png",

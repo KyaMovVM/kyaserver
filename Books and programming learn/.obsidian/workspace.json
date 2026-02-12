@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "039ff4d3b9097dcb",
+    "type": "split",
+    "children": [
+      {
+        "id": "bec12759ccb5188e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63f7a4fe7dbbd58b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Books/Книги по C++/Bertran_Meyer_Obektno-Orientirovannoe_Konstruirovanie_Programmnykh_Sistem.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Bertran_Meyer_Obektno-Orientirovannoe_Konstruirovanie_Programmnykh_Sistem"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6d31db456004a1b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2449be04185e494",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82d9acf046786126",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "f10576b985698f75",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "d0e5af7b11793467",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 271.5
+  },
+  "right": {
+    "id": "0aa540eabd1afa73",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c0f01440c4379af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67b6f3948aa26291",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Books/Книги по C++/Bertran_Meyer_Obektno-Orientirovannoe_Konstruirovanie_Programmnykh_Sistem.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Bertran_Meyer_Obektno-Orientirovannoe_Konstruirovanie_Programmnykh_Sistem"
+            }
+          },
+          {
+            "id": "0efe2c3bb1985ee6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Books/Книги по C++/Bertran_Meyer_Obektno-Orientirovannoe_Konstruirovanie_Programmnykh_Sistem.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Bertran_Meyer_Obektno-Orientirovannoe_Konstruirovanie_Programmnykh_Sistem"
+            }
+          },
+          {
+            "id": "3d76c3cc4ae3eab5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "cdd271b4eff640a0",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "b835ca829cc21389",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Books/Книги по C++/Bertran_Meyer_Obektno-Orientirovannoe_Konstruirovanie_Programmnykh_Sistem.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура Bertran_Meyer_Obektno-Orientirovannoe_Konstruirovanie_Programmnykh_Sistem"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
+    }
+  },
+  "active": "82d9acf046786126",
+  "lastOpenFiles": [
+    "Books/Книги по C++/Q2a27480",
+    "Books/Книги по C++/RUS - Meyers - Effective STL.djvu",
+    "Books/Kuhn-SSR-2ndEd.pdf",
+    "Books/gorshkovals_panzhenskiyvi_marinaev_proektivnaya_geometriya_pgpu_2003.pdf",
+    "Books/Books/Kuhn-SSR-2ndEd.pdf",
+    "Books/Books/gorshkovals_panzhenskiyvi_marinaev_proektivnaya_geometriya_pgpu_2003.pdf",
+    "Books/Books",
+    "Books/Книги по C++/OOSC2.pdf",
+    "Books/Книги по C++/Bertran_Meyer_Obektno-Orientirovannoe_Konstruirovanie_Programmnykh_Sistem.pdf",
+    "Books/Книги по C++/9_Effective_STL_proglib.pdf",
+    "Без названия.base"
+  ]
+}

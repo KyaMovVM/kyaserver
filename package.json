@@ -19,5 +19,8 @@
   },
   "devDependencies": {
     "jest": "^29.0.0"
+  },
+  "dependencies": {
+    "ollama": "^0.6.3"
   }
 }
