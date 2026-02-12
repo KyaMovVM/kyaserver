@@ -4,3 +4,6 @@
 [submodule "wiki"]
 	path = wiki
 	url = https://github.com/KyaMovVM/Main-wiki.git
+[submodule "KyaMovVM.github.io"]
+	path = KyaMovVM.github.io
+	url = https://github.com/KyaMovVM/KyaMovVM.github.io.git
