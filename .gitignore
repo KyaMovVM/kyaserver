@@ -55,6 +55,10 @@ coverage/
 *.temp
 .cache/
 
+# Unreal/Chromium runtime cache artifacts
+**/Saved/webcache_*/
+**/Saved/webcache_*/**
+
 JP/Books
 JP/Private
 research
