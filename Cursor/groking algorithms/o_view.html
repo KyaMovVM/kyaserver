@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>O-большое: визуализация</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #1a1a2e;
+      color: #eaeaea;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+      color: #e94560;
+    }
+    .canvas-wrap {
+      background: #16213e;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 1rem;
+    }
+    canvas {
+      display: block;
+      width: 100%;
+      max-width: 640px;
+      height: 320px;
+      border-radius: 4px;
+    }
+    .info {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      color: #a0a0a0;
+    }
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    .controls label {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .controls input[type="number"] {
+      width: 5rem;
+      padding: 0.5rem;
+      border: 1px solid #533483;
+      border-radius: 4px;
+      background: #16213e;
+      color: #eaeaea;
+      font-size: 1rem;
+    }
+    button {
+      padding: 0.6rem 1.2rem;
+      background: #e94560;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      font-weight: 500;
+    }
+    button:hover { background: #ff6b6b; }
+    button:disabled {
+      background: #555;
+      cursor: not-allowed;
+    }
+    button.secondary {
+      background: #533483;
+    }
+    button.secondary:hover { background: #6b4b9e; }
+    .tabs {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .tabs button {
+      background: #16213e;
+      color: #a0a0a0;
+      padding: 0.5rem 1rem;
+    }
+    .tabs button.active {
+      background: #533483;
+      color: white;
+    }
+    .tabs button:hover:not(.active) { background: #0f3460; }
+    .content-panel {
+      background: #16213e;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+    .content-panel h2 {
+      font-size: 1rem;
+      color: #e94560;
+      margin: 1rem 0 0.5rem;
+    }
+    .content-panel h2:first-child { margin-top: 0; }
+    .boxes-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 1rem 0;
+    }
+    .box {
+      width: 56px;
+      height: 56px;
+      border: 2px solid #533483;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.7rem;
+      text-align: center;
+      padding: 4px;
+    }
+    .box.mine { background: #0f3460; color: #eaeaea; }
+    .box.occupied { background: #3d2c4a; color: #888; border-style: dashed; }
+    .box.empty { background: #1a1a2e; color: #666; }
+    .box.link { background: #0f3460; position: relative; }
+    .box.link::after {
+      content: '→';
+      position: absolute;
+      right: -14px;
+      color: #e94560;
+      font-size: 1rem;
+    }
+    .box.link.last::after { content: '∅'; right: -12px; font-size: 0.8rem; }
+    .boxes-controls { margin-top: 0.5rem; display: flex; gap: 0.5rem; align-items: center; }
+    .boxes-msg { font-size: 0.9rem; color: #a0a0a0; margin-top: 0.25rem; min-height: 1.5em; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="tabs">
+      <button id="tab1" class="active">Алгоритм 1: O(n)</button>
+      <button id="tab2">Алгоритм 2: O(log n)</button>
+      <button id="tab3">Массивы и списки</button>
+    </div>
+    <h1 id="title">O(n): рисование n квадратов = n операций</h1>
+    <div class="canvas-wrap" id="canvasWrap">
+      <canvas id="c"></canvas>
+    </div>
+    <div class="content-panel" id="contentPanel" style="display: none;">
+      <h2>Гардероб: ящики в ряд</h2>
+      <p>В каждом ящике — один предмет. Ваши вещи (массив) хранятся <strong>рядом друг с другом</strong>. Следующий ящик уже занят чужими вещами.</p>
+      <div class="boxes-row" id="arrayBoxes"></div>
+      <div class="boxes-controls">
+        <button id="btnAddArray">Добавить вещь</button>
+        <span class="boxes-msg" id="arrayMsg"></span>
+      </div>
+      <h2>Связанный список: ящики со ссылками</h2>
+      <p>Каждый ящик указывает на следующий. Новый элемент можно поставить <strong>где угодно</strong> и просто привязать ссылку.</p>
+      <div class="boxes-row" id="listBoxes"></div>
+      <div class="boxes-controls">
+        <button id="btnAddList">Добавить вещь</button>
+        <span class="boxes-msg" id="listMsg"></span>
+      </div>
+    </div>
+    <p class="info" id="info">Выполнено операций: 0</p>
+    <div class="controls" id="controls">
+      <label>
+        <span id="labelParam">Квадратов (n):</span>
+        <input type="number" id="n" value="16" min="4" max="64">
+      </label>
+      <label>
+        Задержка (мс):
+        <input type="number" id="delay" value="150" min="50" max="1000">
+      </label>
+      <button id="btnStart">Запустить</button>
+      <button id="btnReset" class="secondary">Сброс</button>
+    </div>
+  </div>
+
+  <script>
+    // --- Ссылки на элементы DOM ---
+    const canvas = document.getElementById('c');
+    const ctx = canvas.getContext('2d');  // 2D контекст для рисования
+    const info = document.getElementById('info');
+    const titleEl = document.getElementById('title');
+    const labelParam = document.getElementById('labelParam');
+    const inputN = document.getElementById('n');
+    const inputDelay = document.getElementById('delay');
+    const btnStart = document.getElementById('btnStart');
+    const btnReset = document.getElementById('btnReset');
+    const tab1 = document.getElementById('tab1');
+    const tab2 = document.getElementById('tab2');
+    const tab3 = document.getElementById('tab3');
+    const canvasWrap = document.getElementById('canvasWrap');
+    const contentPanel = document.getElementById('contentPanel');
+    const controlsEl = document.getElementById('controls');
+    const infoEl = document.getElementById('info');
+
+    // --- Режим: 1 = O(n), 2 = O(log n), 3 = Массивы и списки ---
+    let mode = 1;
+    let drawn = 0;
+    let total = 16;
+    let delay = 150;
+    let timeoutId = null;
+
+    /** Подгонка canvas под размер контейнера и retina-экраны */
+    function resize() {
+      const dpr = window.devicePixelRatio || 1;
+      const rect = canvas.getBoundingClientRect();
+      canvas.width = rect.width * dpr;
+      canvas.height = rect.height * dpr;
+      ctx.scale(dpr, dpr);
+      canvas.style.width = rect.width + 'px';
+      canvas.style.height = rect.height + 'px';
+    }
+
+    // ═══════════════════════════════════════════════════════════════
+    // Алгоритм 1: O(n) — n операций рисуют n квадратов
+    // ═══════════════════════════════════════════════════════════════
+
+    /** Рисует один квадрат (1 операция) */
+    function drawSquare(index) {
+      const w = canvas.getBoundingClientRect().width;
+      const h = canvas.getBoundingClientRect().height;
+      const cols = Math.max(1, Math.floor(Math.sqrt(total)));
+      const rows = Math.ceil(total / cols);
+      const cellW = (w - 20) / cols;
+      const cellH = (h - 20) / rows;
+      const size = Math.min(cellW, cellH) * 0.8;
+
+      const row = Math.floor(index / cols);
+      const col = index % cols;
+      const x = 10 + col * cellW + (cellW - size) / 2;
+      const y = 10 + row * cellH + (cellH - size) / 2;
+
+      ctx.fillStyle = index === total - 1 ? '#e94560' : '#0f3460';
+      ctx.strokeStyle = '#533483';
+      ctx.lineWidth = 2;
+      ctx.fillRect(x, y, size, size);
+      ctx.strokeRect(x, y, size, size);
+    }
+
+    function stepAlgo1() {
+      if (drawn >= total) {
+        btnStart.disabled = false;
+        info.textContent = `Выполнено операций: ${drawn}  (O(n), n=${total})`;
+        return;
+      }
+      drawSquare(drawn);
+      drawn++;
+      info.textContent = `Выполнено операций: ${drawn}`;
+      if (drawn < total) {
+        timeoutId = setTimeout(stepAlgo1, delay);
+      } else {
+        btnStart.disabled = false;
+        info.textContent = `Выполнено операций: ${drawn}  (O(n), n=${total})`;
+      }
+    }
+
+    // ═══════════════════════════════════════════════════════════════
+    // Алгоритм 2: O(log n) — одно складывание создаёт 2 прямоугольника
+    // Каждое сложение удваивает количество. k сложений → 2^k прямоугольников
+    // ═══════════════════════════════════════════════════════════════
+
+    /** Рисует сетку после k сложений: 2^k прямоугольников (k=0 → 1 лист) */
+    function drawFoldedGrid(folds) {
+      const w = canvas.getBoundingClientRect().width;
+      const h = canvas.getBoundingClientRect().height;
+      const pad = 10;
+
+      const count = Math.pow(2, folds);
+      const cols = Math.max(1, Math.pow(2, Math.ceil(folds / 2)));
+      const rows = Math.max(1, Math.floor(count / cols));
+
+      const cellW = (w - pad * 2) / cols;
+      const cellH = (h - pad * 2) / rows;
+
+      ctx.strokeStyle = '#533483';
+      ctx.lineWidth = 1.5;
+
+      for (let r = 0; r < rows; r++) {
+        for (let c = 0; c < cols; c++) {
+          const idx = r * cols + c;
+          if (idx >= count) break;
+          const x = pad + c * cellW;
+          const y = pad + r * cellH;
+          ctx.fillStyle = idx === count - 1 ? '#e94560' : '#0f3460';
+          ctx.fillRect(x, y, cellW, cellH);
+          ctx.strokeRect(x, y, cellW, cellH);
+        }
+      }
+    }
+
+    /** Шаг: одно сложение удваивает прямоугольники */
+    function stepAlgo2() {
+      if (drawn >= total) {
+        btnStart.disabled = false;
+        const rects = Math.pow(2, drawn);
+        info.textContent = `Сложений: ${drawn}  →  ${rects} прямоугольников  (O(log n))`;
+        return;
+      }
+      drawn++;
+      drawFoldedGrid(drawn);
+      const rects = Math.pow(2, drawn);
+      info.textContent = `Сложений: ${drawn}  →  ${rects} прямоугольников`;
+      if (drawn < total) {
+        timeoutId = setTimeout(stepAlgo2, delay);
+      } else {
+        btnStart.disabled = false;
+        info.textContent = `Сложений: ${drawn}  →  ${rects} прямоугольников  (O(log n))`;
+      }
+    }
+
+    /** Общий шаг в зависимости от режима */
+    function step() {
+      mode === 1 ? stepAlgo1() : stepAlgo2();
+    }
+
+    /** Запуск визуализации */
+    function start() {
+      if (timeoutId) clearTimeout(timeoutId);
+      const r = canvas.getBoundingClientRect();
+      ctx.fillStyle = '#16213e';
+      ctx.fillRect(0, 0, r.width, r.height);
+      drawn = 0;
+
+      if (mode === 1) {
+        total = Math.max(4, Math.min(64, parseInt(inputN.value) || 16));
+        info.textContent = 'Выполнено операций: 0';
+      } else {
+        total = Math.max(1, Math.min(8, parseInt(inputN.value) || 5));
+        info.textContent = 'Сложений: 0  →  1 прямоугольник (исходный лист)';
+        drawFoldedGrid(0);  // Начальное состояние: 1 прямоугольник
+      }
+
+      delay = Math.max(50, Math.min(1000, parseInt(inputDelay.value) || 150));
+      btnStart.disabled = true;
+      // Для Алгоритма 2: показываем исходный лист, затем через delay — первое сложение
+      if (mode === 2) {
+        timeoutId = setTimeout(stepAlgo2, delay);
+      } else {
+        step();
+      }
+    }
+
+    /** Сброс canvas и счётчика */
+    function reset() {
+      if (timeoutId) {
+        clearTimeout(timeoutId);
+        timeoutId = null;
+      }
+      const r = canvas.getBoundingClientRect();
+      ctx.fillStyle = '#16213e';
+      ctx.fillRect(0, 0, r.width, r.height);
+      drawn = 0;
+
+      if (mode === 1) {
+        info.textContent = 'Выполнено операций: 0';
+      } else {
+        info.textContent = 'Сложений: 0  →  1 прямоугольник';
+        drawFoldedGrid(0);
+      }
+      btnStart.disabled = false;
+    }
+
+    /** Переключение вкладки */
+    function setMode(m) {
+      mode = m;
+      tab1.classList.toggle('active', m === 1);
+      tab2.classList.toggle('active', m === 2);
+      tab3.classList.toggle('active', m === 3);
+
+      const isVisual = m === 1 || m === 2;
+      canvasWrap.style.display = isVisual ? 'block' : 'none';
+      infoEl.style.display = isVisual ? 'block' : 'none';
+      controlsEl.style.display = isVisual ? 'flex' : 'none';
+      contentPanel.style.display = m === 3 ? 'block' : 'none';
+
+      if (m === 1) {
+        titleEl.textContent = 'O(n): рисование n квадратов = n операций';
+        labelParam.textContent = 'Квадратов (n):';
+        inputN.value = 16;
+        inputN.min = 4;
+        inputN.max = 64;
+      } else if (m === 2) {
+        titleEl.textContent = 'O(log n): одно сложение листа → два прямоугольника';
+        labelParam.textContent = 'Складываний:';
+        inputN.value = 5;
+        inputN.min = 1;
+        inputN.max = 8;
+      } else {
+        titleEl.textContent = 'Массивы и связанные списки';
+        initBoxes();
+      }
+      if (isVisual) reset();
+    }
+
+    // --- Обработчики ---
+    window.addEventListener('resize', () => { resize(); reset(); });
+    btnStart.addEventListener('click', start);
+    btnReset.addEventListener('click', reset);
+    tab1.addEventListener('click', () => setMode(1));
+    tab2.addEventListener('click', () => setMode(2));
+    tab3.addEventListener('click', () => setMode(3));
+
+    // ═══════════════════════════════════════════════════════════════
+    // Механика ящиков: массив vs связанный список
+    // ═══════════════════════════════════════════════════════════════
+
+    const ARRAY_ITEMS = ['шляпа', 'пальто', 'зонт'];
+    const LIST_ITEMS = ['шляпа', 'пальто', 'зонт', 'сумка', 'очки', 'ключи', 'телефон'];
+    const arrayBoxes = document.getElementById('arrayBoxes');
+    const listBoxes = document.getElementById('listBoxes');
+    const arrayMsg = document.getElementById('arrayMsg');
+    const listMsg = document.getElementById('listMsg');
+    const btnAddArray = document.getElementById('btnAddArray');
+    const btnAddList = document.getElementById('btnAddList');
+
+    let arrayCount = 3;   // Ваши 3 вещи в слотах 0,1,2
+    let listCount = 3;    // В списке 3 элемента
+
+    function renderArrayBoxes() {
+      const slots = [
+        ...ARRAY_ITEMS.slice(0, arrayCount).map((v, i) => ({ type: 'mine', text: v })),
+        { type: 'occupied', text: 'Чужое' },
+        { type: 'empty', text: '' },
+        { type: 'empty', text: '' },
+      ];
+      arrayBoxes.innerHTML = slots.map((s, i) =>
+        `<div class="box ${s.type}" title="${s.type === 'occupied' ? 'Следующий ящик занят' : ''}">${s.text || '—'}</div>`
+      ).join('');
+    }
+
+    function renderListBoxes() {
+      const items = LIST_ITEMS.slice(0, listCount);
+      listBoxes.innerHTML = items.map((text, i) =>
+        `<div class="box link ${i === items.length - 1 ? 'last' : ''}">${text}</div>`
+      ).join('');
+    }
+
+    function addArrayItem() {
+      if (arrayCount >= 3) {
+        arrayMsg.textContent = '❌ Следующий ящик занят! В массиве нужна непрерывная память.';
+        return;
+      }
+      arrayCount++;
+      renderArrayBoxes();
+      arrayMsg.textContent = '';
+    }
+
+    function addListItem() {
+      if (listCount >= LIST_ITEMS.length) {
+        listMsg.textContent = '✓ Больше некуда, но в реальном списке можно добавлять!';
+        return;
+      }
+      listCount++;
+      renderListBoxes();
+      listMsg.textContent = `✓ Добавлено «${LIST_ITEMS[listCount - 1]}» — новый ящик привязан ссылкой`;
+    }
+
+    btnAddArray.addEventListener('click', () => {
+      arrayMsg.textContent = 'Пробуем добавить…';
+      setTimeout(() => addArrayItem(), 200);
+    });
+    btnAddList.addEventListener('click', () => {
+      listMsg.textContent = '';
+      addListItem();
+    });
+
+    function initBoxes() {
+      arrayCount = 3;
+      listCount = 3;
+      renderArrayBoxes();
+      renderListBoxes();
+      arrayMsg.textContent = '';
+      listMsg.textContent = '';
+    }
+
+    resize();
+    reset();
+  </script>
+</body>
+</html>

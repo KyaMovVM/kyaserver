@@ -6,6 +6,7 @@
       "extensions": ["streetsidesoftware.code-spell-checker", "streetsidesoftware.code-spell-checker-russian","ms-python.python","ms-python.debugpy"]
     }
   },
-  "forwardPorts": [3010],
+  "forwardPorts": [3010, 22],
   "postCreateCommand": "git config --global --add safe.directory /workspaces/kyaserver && git submodule update --init --recursive"
+
 }

@@ -1,0 +1,15 @@
+https://cursor.com/docs/configuration/languages/python
+
+Cursor безупречно работает с популярными фреймворками Python:
+
+Веб-фреймворки : Django, Flask, FastAPI
+Наука о данных : Jupyter, NumPy, Pandas
+Машинное обучение : TensorFlow, PyTorch, scikit-learn
+Тестирование : pytest, unittest
+API : requests, aiohttp
+База данных : SQLAlchemy, psycopg2
+
+ursor явно документирует и рекомендует настройку для:
+Java — docs.cursor.com/configuration/languages/java
+Python — отдельные гайды
+C++ — есть в документации
