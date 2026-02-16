@@ -12,6 +12,9 @@
   },
   "jest": {
     "testEnvironment": "node",
+    "testMatch": [
+      "<rootDir>/tests/**/*.test.js"
+    ],
     "testPathIgnorePatterns": [
       "getting-started-app",
       "docker-projects"
