@@ -261,6 +261,95 @@ git push
 - **Gitea репозиторий wiki:** http://192.168.0.104:3000/KyaMovVM/Main.wiki
 - **Подробное руководство для Cursor:** `.cursor/CURSOR.md`
 
+## CUDA Python — Key Libraries and Tools
+
+CUDA Python экосистема для GPU-вычислений. Требуется система с CUDA-capable GPU и установленный NVIDIA CUDA Toolkit. Библиотеки устанавливаются через `pip` или `conda`.
+
+### Модель исполнения CUDA
+
+Иерархия не менялась с момента появления CUDA:
+
+```
+Grid (вся задача)
+ └── Block (группа потоков, общая shared memory)
+      └── Warp (32 потока, исполняются одновременно на SM)
+           └── Thread (минимальная единица исполнения)
+```
+
+Современные Python-библиотеки **абстрагируют** эту модель: ты работаешь с массивами и операциями, а библиотека сама определяет grid/block конфигурацию. Ручное управление потоками и блоками нужно только при написании кастомных ядер через Numba или PyCUDA.
+
+### Основные библиотеки
+
+| Библиотека | Уровень | Назначение |
+|---|---|---|
+| **[NVIDIA CUDA Python](https://nvidia.github.io/cuda-python/)** | Низкий | Python-биндинги для CUDA Driver и Runtime API. Прямой доступ к CUDA host API. |
+| **[PyCUDA](https://documen.tician.de/pycuda/)** | Низкий | Питонический доступ к CUDA API с C++ слоем. Написание raw CUDA-ядер на C внутри Python. |
+| **[Numba](https://numba.pydata.org/)** | Средний | JIT-компилятор. Декоратор `@cuda.jit` для написания CUDA-ядер на чистом Python. Ты всё ещё оперируешь `threadIdx`, `blockIdx`, но без C/C++. |
+| **[CuPy](https://cupy.dev/)** | Высокий | Drop-in замена NumPy/SciPy на GPU. `cupy.array` вместо `numpy.array` — остальной код без изменений. |
+| **[Warp (NVIDIA)](https://nvidia.github.io/warp/)** | Высокий | Python-фреймворк для GPU-симуляций и пространственных вычислений. JIT-компиляция ядер из Python. |
+
+### RAPIDS — GPU Data Science Ecosystem
+
+| Библиотека | Назначение |
+|---|---|
+| **[cuDF](https://docs.rapids.ai/api/cudf/stable/)** | GPU DataFrame, pandas accelerator mode. DataFrame-операции на GPU без изменения кода. |
+| **[cuML](https://docs.rapids.ai/api/cuml/stable/)** | GPU-ускоренный scikit-learn: регрессия, кластеризация, PCA, UMAP, t-SNE и др. |
+| **[cuGraph](https://docs.rapids.ai/api/cugraph/stable/)** | Графовая аналитика на GPU: PageRank, Louvain, BFS, SSSP. |
+| **[cuSpatial](https://docs.rapids.ai/api/cuspatial/stable/)** | Геопространственные операции на GPU. |
+| **[kvikIO](https://docs.rapids.ai/api/kvikio/stable/)** | Высокопроизводительный GPU-direct I/O (GDS). |
+| **[RAPIDS RAFT](https://docs.rapids.ai/api/raft/stable/)** | Низкоуровневые GPU-примитивы для ML: k-NN, матричные операции, кластеризация. |
+
+### Deep Learning и LLM
+
+| Библиотека | Назначение |
+|---|---|
+| **[PyTorch (CUDA backend)](https://pytorch.org/)** | Основной фреймворк для DL. `tensor.to('cuda')` — прозрачный перенос на GPU. |
+| **[Triton (OpenAI)](https://triton-lang.org/)** | Язык и компилятор для GPU-ядер. Проще чем CUDA C, мощнее чем CuPy. Используется в PyTorch 2.0 (`torch.compile`). |
+| **[vLLM](https://docs.vllm.ai/)** | Высокопроизводительный LLM inference сервер с PagedAttention. |
+| **[TensorRT](https://developer.nvidia.com/tensorrt)** | Оптимизация и inference нейросетей. Квантизация, fusion слоёв. |
+| **[NVIDIA NeMo](https://docs.nvidia.com/nemo-framework/)** | Фреймворк для обучения и fine-tuning LLM, ASR, TTS. |
+| **[Transformer Engine](https://docs.nvidia.com/deeplearning/transformer-engine/)** | FP8 обучение трансформеров на Hopper GPU. |
+
+### Установка
+
+```bash
+# Основные библиотеки
+pip install cuda-python numba cupy-cuda12x pycuda
+
+# RAPIDS (CUDA 12)
+pip install cudf-cu12 cuml-cu12 cugraph-cu12
+# или через conda (рекомендуется для RAPIDS):
+conda install -c rapidsai -c conda-forge -c nvidia rapids=25.02 python=3.12 cuda-version=12.8
+
+# Deep Learning
+pip install torch --index-url https://download.pytorch.org/whl/cu124
+pip install triton vllm
+
+# NVIDIA Warp
+pip install warp-lang
+```
+
+### Ресурсы для обучения
+
+**Официальные курсы и документация:**
+- [NVIDIA DLI — Fundamentals of Accelerated Computing with CUDA Python](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-AC-02+V1) — бесплатный курс от NVIDIA (Numba)
+- [NVIDIA CUDA Python Programming Guide](https://nvidia.github.io/cuda-python/latest/) — официальная документация
+- [RAPIDS Getting Started](https://rapids.ai/start) — быстрый старт в GPU Data Science
+- [Numba CUDA Documentation](https://numba.readthedocs.io/en/stable/cuda/index.html) — руководство по написанию CUDA-ядер на Python
+- [CuPy User Guide](https://docs.cupy.dev/en/stable/user_guide/index.html) — миграция с NumPy на GPU
+
+**Книги:**
+- *"Programming Massively Parallel Processors"* (Hwu, Kirk, El Hajj, 4th ed. 2022) — основы GPU-архитектуры и CUDA
+- *"CUDA by Example"* (Sanders, Kandrot) — практическое введение
+- *"Learning Ray"* (Zhu et al., O'Reilly 2023) — распределённые GPU-вычисления
+
+**Практика и туториалы:**
+- [NVIDIA Launchpad](https://www.nvidia.com/en-us/launchpad/) — бесплатные GPU-лаборатории в облаке
+- [Google Colab](https://colab.research.google.com/) — бесплатный доступ к GPU (T4), можно тестировать CuPy/Numba/PyTorch
+- [Triton Tutorials](https://triton-lang.org/main/getting-started/tutorials/index.html) — написание GPU-ядер на Triton (актуально для PyTorch internals)
+- [CuPy Examples](https://github.com/cupy/cupy/tree/main/examples) — примеры миграции NumPy → GPU
+- [RAPIDS Notebooks](https://github.com/rapidsai/notebooks) — Jupyter-ноутбуки с примерами cuDF, cuML, cuGraph
+
 ## Лицензия
 
 none
