@@ -74,6 +74,9 @@ python3 -m ipykernel install --user --name python3 2>/dev/null && echo "  Jupyte
 
 echo ""
 echo "[deps] Проверка luarock magick..."
+if ! command -v magick >/dev/null 2>&1 && ! command -v convert >/dev/null 2>&1; then
+    echo "  ImageMagick CLI не найден: установи 'sudo apt install imagemagick'"
+fi
 luarocks --local --lua-version 5.1 install magick 2>/dev/null && echo "  magick luarock установлен" || echo "  Ошибка установки magick (нужен libmagickwand-dev)"
 
 echo ""

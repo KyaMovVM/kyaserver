@@ -17,8 +17,9 @@
 
 - `pynvim`, `jupyter_client`, `ipykernel` — Python-пакеты для molten
 - `luarocks` + `magick` luarock — для image.nvim
-- `libmagickwand-dev` — системная библиотека для magick
-- Всё ставится через `configs/activate.sh`
+- `imagemagick` — CLI-команды `magick`/`convert`, необходимые `image.nvim`
+- `libmagickwand-dev` — системная библиотека для Lua-модуля magick
+- Python- и Lua-пакеты ставятся через `configs/activate.sh`; системные пакеты — через `apt`
 
 ## Vim в Codex CLI
 
